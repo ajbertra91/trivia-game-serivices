@@ -46,5 +46,51 @@ exports.questions = [
         ],
         answer: 0,
         answered: false
+    },
+    {
+        category: 'bible',
+        question: "How long is Jesus' reign in the book of Revelation?",
+        choices: [
+            "100 years",
+            "1,000 years",
+            "Forever"
+        ],
+        answer: 1,
+        answered: false
+    },
+    {
+        category: 'bible',
+        question: "What color is the \"Pale\" Horse in Revelation 6:8?",
+        choices: [
+            "Green",
+            "Red",
+            "White",
+            "Salmon"
+        ],
+        answer: 0,
+        answered: false
+    },
+    {
+        category: 'bible',
+        question: "How many horsemen of the apocolypse are there?",
+        choices: [
+            "3 horsemen",
+            "5 horsemen",
+            "7 horsemen",
+            "4 horsemen"
+        ],
+        answer: 3,
+        answered: false
+    },
+    {
+        category: 'bible',
+        question: "What is the beginning of wisdom?",
+        choices: [
+            "Knowing the Lord",
+            "Obeying the Lord",
+            "Fearing the Lord"
+        ],
+        answer: 2,
+        answered: false
     }
 ];
