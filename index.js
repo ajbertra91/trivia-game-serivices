@@ -7,9 +7,11 @@ const server = new ApolloServer({
     cors: {
         origin: '*',
         credentials: true
-    }
+    },
+    playground: true,
+    introspection: true
 });
 
-server.listen().then(({ url }) => {
-  console.log(`🚀  Server ready at ${url}`);
+server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
+  console.log(`🚀 Server ready at ${url}`);
 });
