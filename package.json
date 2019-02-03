@@ -12,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.3.3",
-    "graphql": "^14.1.1",
-    "isomorphic-fetch": "^2.2.1"
+    "graphql": "^14.1.1"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
